@@ -1,0 +1,40 @@
+% This code prints the graph for the data of of Rate of Rainfall in West Sulawesi 
+% in the last two Years, 2019-2020
+%
+x = [1:24];
+y = [90, 55.7, 134.1, 152.6, 68.9, 68.6, 4.3, 9.7, 0, 185.4, 99.5, 16.1,...
+325.7, 153.5, 71.7, 107.7, 56.6, 87.5, 79.1, 20.2, 33.7, 127.4, 96.4, 215.4];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Rate of Rainfall, mm');
+grid on;
+title('Rate of Rainfall in West Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,0,350]);
+legend('Rate of Rainfall(RR)');
+
+% This code prints the graph for the data of of Mean Temperature in West Sulawesi 
+% in the last two Years, 2019-2020
+%
+x = [1:24];
+y = [27.6129, 27.45, 27.8484, 28.2167, 28.1742, 27.3333, 26.9903, 27.1367,...
+27.9167, 28.6833, 28.7933, 28.8, 28.0629, 27.9667, 28.1261, 28.0476, 28.3917,...
+27.6529, 27.5, 27.8154, 28.0786, 28.4759, 28.2321, 27.133];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Mean Temperature, ^{o}C');
+grid on;
+title('Mean Temperature in West Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,26.5,29]);
+legend('Mean Temperature(Tavg)');
