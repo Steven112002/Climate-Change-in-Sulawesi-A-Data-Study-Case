@@ -1,1 +1,41 @@
+% This code prints the graph for the data of of Rate of Rainfall in Southeast Sulawesi 
+% in the last two Years, 2019 - 2020
+%
+x = [1:24];
+y = [267.3, 301.2, 261.3, 239.8, 341.3, 350.4, 101.2, 5.7, 2.5, 18.9, 0, 98.3,...
+224.2, 327, 161.1, 270.3, 177, 427.5, 337.5, 25.2, 100, 5.6, 172, 83.5];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Rate of Rainfall, mm');
+grid on;
+title('Rate of Rainfall in Southeast Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,0,430]);
+legend('Rate of Rainfall(RR)');
 
+% This code prints the graph for the data of of Mean Temperature in Southeast Sulawesi 
+% in the last two Years, 2019 - 2020
+%
+x = [1:24];
+y = [27.5143, 27.8308, 27.912, 28.51, 28.8467, 27.8333, 27.3226, 27.5484,...
+27.9690, 29.336, 29.3038, 28.9923, 28.25, 27.7269, 28.2963, 28.5188,...
+29.0714, 28.4154, 28.1846, 28.5857, 28.9062, 29.2393, 28.9704,...
+27.03];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Mean Temperature, ^{o}C');
+grid on;
+title('Mean Temperature in Southeast Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,25,29]);
+legend('Mean Temperature(Tavg)');
