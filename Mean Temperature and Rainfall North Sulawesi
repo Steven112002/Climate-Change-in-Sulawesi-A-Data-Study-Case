@@ -1,1 +1,41 @@
+% This code prints the graph for the data of of Rate of Rainfall in North Sulawesi 
+% in the last two Years, 2019 - 2020
+%
+x = [1:24];
+y = [156.2, 24.7, 14.2, 226.3, 144.5, 41.6, 36.9, 0, 0.3, 67.3, 91.6, 107.4,...
+49, 88.6, 159.6, 143.3, 140.5, 130.9, 67.9, 85.6, 138.6, 124.6, 34.6, 118.8];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Rate of Rainfall, mm');
+grid on;
+title('Rate of Rainfall in North Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,0,430]);
+legend('Rate of Rainfall(RR)');
 
+% This code prints the graph for the data of of Mean Temperature in North Sulawesi 
+% in the last two Years, 2019 - 2020
+%
+x = [1:24];
+y = [27.4871, 27.1107, 27.5452, 27.3167, 27.1903, 26.36, 25.2806,...
+25.5129, 25.6467, 27.4233, 28.6967, 28.6806, 28.1065,...
+27.5103, 27.7871, 27.43, 27.6968, 26.3667, 25.9387,...
+26.2806, 26.5882, 27.971, 28.11, 27.9226];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Mean Temperature, ^{o}C');
+grid on;
+title('Mean Temperature in North Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,25,29]);
+legend('Mean Temperature(Tavg)');
