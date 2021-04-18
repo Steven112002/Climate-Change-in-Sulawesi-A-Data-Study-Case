@@ -1,0 +1,41 @@
+% This code prints the graph for the data of of Rate of Rainfall in Central Sulawesi 
+% in the last two Years, 2019-2020
+%
+x = [1:24];
+y = [9577.1, 225.3, 353.2, 383.6, 59.4, 60.7, 2.3, 0, 0, 0, 84.2, 279.7,...
+573, 538.2, 264.9, 111, 172.1, 73.1, 8.4, 16.4, 9.6, 53.7, 247.9, 942.4];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Rate of Rainfall, mm');
+grid on;
+title('Rate of Rainfall in Central Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,0,950]);
+legend('Rate of Rainfall(RR)');
+
+% This code prints the graph for the data of of Mean Temperature in Central Sulawesi 
+% in the last two Years, 2019-2020
+%
+x = [1:24];
+y = [27.5143, 27.8308, 27.912, 28.51, 28.8467, 27.8333, 27.3226, 27.5484,...
+27.9690, 29.336, 29.3038, 28.9923, 28.25, 27.7269, 28.2963, 28.5188,...
+29.0714, 28.4154, 28.1846, 28.5857, 28.9062, 29.2393, 28.9704,...
+27.03];
+plot(x,y);
+xlabel('Month');
+xticks([1:24]);
+xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
+'June19','July19','Aug19','Sept19','Oct19','Nov19',...
+'Dec19','Jan20','Feb20','Mar20','Apr20','May20',...
+'June20','July20','Aug20','Sept2020','Oct20','Nov20',...
+'Dec20'})
+ylabel('Mean Temperature, ^{o}C');
+grid on;
+title('Mean Temperature in Central Sulawesi in the Last Two Years, 2019-2020');
+axis([1,24,27,29.5]);
+legend('Mean Temperature(Tavg)');
