@@ -1,5 +1,5 @@
 % This code prints the graph for the data of of Rate of Rainfall in South Sulawesi 
-% in the last two Years, 2019-2020
+% in the last two Years, 2019 - 2020
 %
 x = [1:24];
 y = [577.1, 225.3, 353.2, 383.6, 59.4, 60.7, 2.3, 0, 0, 0, 84.2, 279.7,...
@@ -19,7 +19,7 @@ axis([1,24,0,950]);
 legend('Rate of Rainfall(RR)');
 
 % This code prints the graph for the data of of Mean Temperature in South Sulawesi 
-% in the last two Years, 2019-2020
+% in the last two Years, 2019 - 2020
 %
 x = [1:24];
 y = [27.5143, 27.8308, 27.912, 28.51, 28.8467, 27.8333, 27.3226, 27.5484,...
