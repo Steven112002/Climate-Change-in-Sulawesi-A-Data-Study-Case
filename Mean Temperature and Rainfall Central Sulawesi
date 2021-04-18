@@ -15,7 +15,7 @@ xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
 ylabel('Rate of Rainfall, mm');
 grid on;
 title('Rate of Rainfall in Central Sulawesi in the Last Two Years, 2019-2020');
-axis([1,24,0,950]);
+axis([1,24,0,220]);
 legend('Rate of Rainfall(RR)');
 
 % This code prints the graph for the data of of Mean Temperature in Central Sulawesi 
@@ -37,5 +37,5 @@ xticklabels({'Jan19','Feb19','Mar19','Apr19','May19',...
 ylabel('Mean Temperature, ^{o}C');
 grid on;
 title('Mean Temperature in Central Sulawesi in the Last Two Years, 2019-2020');
-axis([1,24,27,29.5]);
+axis([1,24,26.5,28.5]);
 legend('Mean Temperature(Tavg)');
