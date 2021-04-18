@@ -1,5 +1,5 @@
 % This code prints the graph for the data of of Rate of Rainfall in West Sulawesi 
-% in the last two Years, 2019-2020
+% in the last two Years, 2019 - 2020
 %
 x = [1:24];
 y = [90, 55.7, 134.1, 152.6, 68.9, 68.6, 4.3, 9.7, 0, 185.4, 99.5, 16.1,...
@@ -19,7 +19,7 @@ axis([1,24,0,350]);
 legend('Rate of Rainfall(RR)');
 
 % This code prints the graph for the data of of Mean Temperature in West Sulawesi 
-% in the last two Years, 2019-2020
+% in the last two Years, 2019 - 2020
 %
 x = [1:24];
 y = [27.6129, 27.45, 27.8484, 28.2167, 28.1742, 27.3333, 26.9903, 27.1367,...
